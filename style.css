@@ -1,0 +1,104 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f7f9fc;
+  color: #333;
+}
+
+.hero {
+  background: url('iPhone-17-Pro-on-Desk-Feature.jpg') center/cover no-repeat;
+  color:  whitesmoke;
+  text-align: center;
+  padding: 140px 20px;
+}
+
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 100px;
+}
+
+.cta-button {
+  background: #00bfa5;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.features {
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.features-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature {
+  flex: 1;
+  min-width: 250px;
+  padding: 20px;
+  background: #eef2f3;
+  border-radius: 10px;
+}
+
+.gallery {
+  padding: 40px 20px;
+  background: #f0f4f8;
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-images img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.testimonials {
+  padding: 40px 20px;
+  background: #e0f7fa;
+  text-align: center;
+  font-style: italic;
+}
+
+.contact {
+  padding: 40px 20px;
+  background: #fff;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#contact-form button {
+  background: #00bfa5;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
